@@ -1,0 +1,59 @@
+/* Custom vibrant styles for the Item Lister */
+
+body {
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  /* Styles for the main header */
+  #main-header {
+    background-color: #28a745; /* Vibrant green background color */
+    color: #fff; /* White text color */
+    padding: 1rem; /* Padding around the header */
+    margin-bottom: 1.5rem; /* Bottom margin */
+  }
+  
+  /* Styles for the header title */
+  #header-title {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Styles for the search input */
+  #filter {
+    width: 100%; /* Take up the full width of its container */
+  }
+  
+  /* Styles for the main content container */
+  .container {
+    margin-top: 2rem; /* Top margin */
+  }
+  
+  /* Styles for the main card */
+  #main {
+    padding: 1.5rem; /* Padding around the card */
+    background-color: #f8d7da; /* Light red background color */
+  }
+  
+  /* Styles for the form and its components */
+  #addForm {
+    margin-bottom: 1.5rem; /* Bottom margin */
+  }
+  
+  #item {
+    margin-right: 0.5rem; /* Right margin for spacing between input and button */
+  }
+  
+  /* Styles for the list items and delete buttons */
+  .list-group-item {
+    position: relative; /* Needed for positioning the delete button */
+    background-color: #d4edda; /* Light green background color */
+  }
+  
+  .delete {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    background-color: #721c24; /* Dark red background color */
+    color: #fff; /* White text color */
+  }
+  
